@@ -30,3 +30,7 @@
 
 IN SIMPLER Terms:   INSERT -> ADD -> COMMIT -> PUSH
 
+
+Now to get a file that was created in GitHub not in the worspace.
+1) create a file in GitHub.
+2) Then just RUN: git pull
