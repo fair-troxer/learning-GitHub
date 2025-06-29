@@ -8,17 +8,25 @@
 6) Now create a new file in the cloned repository in the workspace.
 7) At first the file will be having a "U" at its side and the file will be in green color.
 
-8) RUN: git status
+8) RUN:    git status
     Untracked files:
     (use "git add <file>..." to include in what will be committed)
         test.txt    ⬅️This means that this file was newly created and it needs to be updated in the repository.
 
 9) To update that file RUN: git add test.txt
 10) Now if we check the status by,
-    RUNNING: git status
+    RUNNING:    git status
         Changes to be committed:
         (use "git restore --staged <file>..." to unstage)
             new file:   test.txt
 
 11) Now the newly created file is ready to be Updated in our repository.
-12) 
+12) Now commit the changes in the repository by,
+    RUNNING:   git commit -m "Message to everyone who see the file in GitHub"
+
+13) To finally push or save changes in our repository,
+    RUN:    git push origin main
+
+
+IN SIMPLER Terms:   INSERT -> ADD -> COMMIT -> PUSH
+
