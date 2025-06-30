@@ -50,7 +50,12 @@ To add a repository from the workspace:-
 11) Now push out Directory to github with: git push origin main
 
 Checking and Creating a GITHUB BRANCH:-
-1) To check all the available branches> RUN: git branch -a
+1) To check all the available branches in current working Directory. RUN: git branch -a
 2) Create a Branch manually in GitHub.
 3) To go to the newly created Baranch. RUN: git checkout branchName
-4) To check the current branch. RUN: git branch
+4) To check the current branch. RUN: git branch.
+5) the changes made in other branch will only will be visible when inside that branch. RUN: git check BranchName
+6) To check difference of two branches. RUN: git diff (other branch name)
+
+Merge Branch:-
+1) To merge two branches. RUN: git merge (other branch name)
