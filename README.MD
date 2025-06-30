@@ -59,3 +59,5 @@ Checking and Creating a GITHUB BRANCH:-
 
 Merge Branch:-
 1) To merge two branches. RUN: git merge (other branch name)
+
+Removing branch names that doesn't exist in GitHub. RUN: git remote prune origin
