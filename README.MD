@@ -48,3 +48,7 @@ To add a repository from the workspace:-
 9) To check the branch of the director. RUN: git branch
 10) To point the branch to "main". RUN: git branch -m main
 11) Now push out Directory to github with: git push origin main
+
+Ckecking and Creating a GITHUB BRANCH:-
+1) To check all the available branches> RUN: git branch -a
+2) Create a Branch manually in GitHub.
