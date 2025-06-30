@@ -31,6 +31,20 @@
 IN SIMPLER Terms:   INSERT -> ADD -> COMMIT -> PUSH
 
 
-Now to get a file that was created in GitHub not in the worspace.
+Now to get a file that was directly created in GitHub but not in VS CODE Workspace.
 1) create a file in GitHub.
 2) Then just RUN: git pull
+
+To add a repository from the workspace:-
+1) Manually create a new repository in github.
+2) Now create a folder in Workspace with the same name with that repository.
+3) now change directory to the newly created folder in Workspace using terminal: cd Current-Working-Directory
+4) now RUN: git init
+5) RUN : git add
+6) RUN git commit -m "description"
+7) Now we have to change the origin, because currently the origin is pointed to our old Working File.
+8) To poin origin to new Working Directory. RUN: git remote add origin "link of new repository from github".
+
+9) To check the branch of the director. RUN: git branch
+10) To point the branch to "main". RUN: git branch -m main
+11) Now push out Directory to github with: git push origin main
