@@ -40,7 +40,7 @@ To add a repository from the workspace:-
 2) Now create a folder in Workspace with the same name with that repository.
 3) now change directory to the newly created folder in Workspace using terminal: cd Current-Working-Directory
 4) now RUN: git init
-5) RUN : git add
+5) RUN : git add .
 6) RUN git commit -m "description"
 7) Now we have to change the origin, because currently the origin is pointed to our old Working File.
 8) To poin origin to new Working Directory. RUN: git remote add origin "link of new repository from github".
