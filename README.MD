@@ -57,7 +57,13 @@ Checking and Creating a GITHUB BRANCH:-
 5) the changes made in other branch will only will be visible when inside that branch. RUN: git check BranchName
 6) To check difference of two branches. RUN: git diff (other branch name)
 
+Create a Branch in Workspace:-
+1) To create a branch in workspace RUN: git branch (new_branch name)
+
 Merge Branch:-
 1) To merge two branches. RUN: git merge (other branch name)
+2) But now the branch that is directly created in the workspace will not be visible in GitHub branches List.
+3) To update that. RUN: git push origin (new branch name)
 
 Removing branch names that doesn't exist in GitHub. RUN: git remote prune origin
+To remove a file from current branch. RUN: git rm (file to Rmove)
