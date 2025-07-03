@@ -54,7 +54,7 @@ Checking and Creating a GITHUB BRANCH:-
 2) Create a Branch manually in GitHub.
 3) To go to the newly created Baranch. RUN: git checkout branchName
 4) To check the current branch. RUN: git branch.
-5) the changes made in other branch will only will be visible when inside that branch. RUN: git check BranchName
+5) the changes made in other branch will only will be visible when inside that branch. RUN: git checkout BranchName
 6) To check difference of two branches. RUN: git diff (other branch name)
 
 Create a Branch in Workspace:-
